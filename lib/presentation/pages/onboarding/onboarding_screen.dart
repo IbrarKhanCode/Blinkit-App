@@ -1,4 +1,5 @@
 import 'package:blinkit_app/domain/const/app_colors.dart';
+import 'package:blinkit_app/presentation/pages/bottom_navigation_bar/bottom_navigation_bar_screen.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -31,20 +32,25 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     Text('Muhammad Ibrar',style: TextStyle(fontSize: 16),),
                     Text('031656XXXXX',style: TextStyle(color: Colors.grey),),
                     SizedBox(height: 10,),
-                    Container(
-                      height: 55,
-                      width: MediaQuery.of(context).size.width * 0.8,
-                      decoration: BoxDecoration(
-                          color: AppColors.redColor,
-                          borderRadius: BorderRadius.circular(15)
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text('Login with',style: TextStyle(color: Colors.white,fontWeight: FontWeight.w500),),
-                          SizedBox(width: 10,),
-                          Image.asset('assets/images/zomato.png')
-                        ],
+                    InkWell(
+                      onTap: (){
+                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>BottomNavigationBarScreen()));
+                      },
+                      child: Container(
+                        height: 55,
+                        width: MediaQuery.of(context).size.width * 0.8,
+                        decoration: BoxDecoration(
+                            color: AppColors.redColor,
+                            borderRadius: BorderRadius.circular(15)
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text('Login with',style: TextStyle(color: Colors.white,fontWeight: FontWeight.w500),),
+                            SizedBox(width: 10,),
+                            Image.asset('assets/images/zomato.png')
+                          ],
+                        ),
                       ),
                     ),
                     SizedBox(height: 10,),
