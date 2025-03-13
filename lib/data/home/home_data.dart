@@ -14,16 +14,20 @@ List<String> firstTexts = [
 
 List<String> secondImages = [
 
-  "assets/images/home9.png",
-  "assets/images/home10.png",
-  "assets/images/home11.png",
+  "assets/images/home12.png",
+  "assets/images/home13.png",
+  "assets/images/home14.png",
+  "assets/images/home15.png",
+  "assets/images/home16.png",
 
 ];
 
 List<String> secondTexts = [
 
-  "",
-  "Royal Gulab Jamun \n By Bikano",
-  "Bikaji Bhujia",
+  "Vegetables & \n Fruits",
+  "Atta, Dal & \n Rice",
+  "Oil, Ghee & \n Masala",
+  "Dairy, Bread & \n Milk",
+  "Biscuits & \n Bakery",
 
 ];

@@ -169,27 +169,127 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               SizedBox(height: 20),
-              Row(
-                children: [
-                  Container(
-                    height: 120,
-                    width: 120,
-                    decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage('assets/images/home9.png')),
-                        borderRadius: BorderRadius.circular(8)
-                    ),
-                  ),
-                  Text('Golden Glass \n Wooden Lid Candle (Oudh)',style: TextStyle(color: Colors.black,fontSize: 9,fontWeight: FontWeight.w500),),
-                  Row(
-                    children: [
-                      Image.asset('assets/images/timer.png'),
-                      Text('16 MINS',style: TextStyle(color: Colors.grey,fontSize: 10,fontWeight: FontWeight.w500),),
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
+                child: Row(
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          height: 120,
+                          width: 90,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/images/home9.png')),
+                              borderRadius: BorderRadius.circular(8)
+                          ),
+                        ),
+                        Text('Golden Glass \n Wooden Lid Candle (Oudh)',style: TextStyle(color: Colors.black,fontSize: 9,fontWeight: FontWeight.w900),),
+                        Row(
+                          children: [
+                            Image.asset('assets/images/timer.png'),
+                            Text('16 MINS',style: TextStyle(color: Colors.grey,fontSize: 10,fontWeight: FontWeight.w500),),
 
-                    ],
-                  ),
-                  Text('\$ 79',style: TextStyle(color: Colors.black,fontWeight: FontWeight.w500),),
-                ],
+                          ],
+                        ),
+                        Text('\$ 79',style: TextStyle(color: Colors.black,fontSize: 17,fontWeight: FontWeight.w700),),
+                      ],
+                    ),
+                    SizedBox(width: 10,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          height: 120,
+                          width: 90,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/images/home10.png')),
+                              borderRadius: BorderRadius.circular(8)
+                          ),
+                        ),
+                        Text('Royal Gulab Jamun \n By Bikano',style: TextStyle(color: Colors.black,fontSize: 9,fontWeight: FontWeight.w900),),
+                        Row(
+                          children: [
+                            Image.asset('assets/images/timer.png'),
+                            Text('16 MINS',style: TextStyle(color: Colors.grey,fontSize: 10,fontWeight: FontWeight.w500),),
+
+                          ],
+                        ),
+                        Text('\$ 79',style: TextStyle(color: Colors.black,fontSize: 17,fontWeight: FontWeight.w700),),
+                      ],
+                    ),
+                    SizedBox(width: 35,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          height: 120,
+                          width: 90,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/images/home11.png')),
+                              borderRadius: BorderRadius.circular(8)
+                          ),
+                        ),
+                        Text('Bikaji Bhujia',style: TextStyle(color: Colors.black,fontSize: 9,fontWeight: FontWeight.w900),),
+                        Row(
+                          children: [
+                            Image.asset('assets/images/timer.png'),
+                            Text('16 MINS',style: TextStyle(color: Colors.grey,fontSize: 10,fontWeight: FontWeight.w500),),
+
+                          ],
+                        ),
+                        Text('\$ 79',style: TextStyle(color: Colors.black,fontSize: 17,fontWeight: FontWeight.w700),),
+                      ],
+                    ),
+                  ],
+                ),
               ),
+              SizedBox(height: 30),
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
+                child: Row(
+                  children: [
+                    Text('Grocery & Kitchen',style: TextStyle(color: Colors.black,fontSize: 18,fontWeight: FontWeight.w800),),
+                  ],
+                ),
+              ),
+              SizedBox(height: 20),
+              SizedBox(
+                height: 130,
+                child: ListView.builder(
+                  itemCount: secondImages.length,
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context,ind){
+                        return Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10),
+                          child: Column(
+                            children: [
+                              Container(
+                                height: 80,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                  color: Color(0xffD9EBEB),
+                                  borderRadius: BorderRadius.circular(15)
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    height: 70,
+                                    width: 60,
+                                    decoration: BoxDecoration(
+                                        image: DecorationImage(image: AssetImage(secondImages[ind])),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              SizedBox(height: 10,),
+                              Text(
+                                textAlign: TextAlign.center,
+                                secondTexts[ind],style: TextStyle(color: Colors.black,fontWeight: FontWeight.w500,fontSize: 11),)
+                            ],
+                          ),
+                        );
+                    }),
+              )
 
             ],
           ),
