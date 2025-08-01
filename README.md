@@ -6,37 +6,31 @@ A high-performance grocery shopping app built with **Flutter**, inspired by Blin
 
 <table>
   <tr>
-    <td>
-      <strong>Print Screen</strong>
+    <td align="center">
       <img src="assets/screenshots/1.jpeg" width="220"/><br>
-      
+      <strong>Print Screen</strong>
     </td>
-    <td>
-      <strong>Category Screen</strong>
+    <td align="center">
       <img src="assets/screenshots/2.jpeg" width="220"/><br>
-      
+      <strong>Category Screen</strong>
     </td>
-    <td>
-      <strong>Cart Screen</strong>
+    <td align="center">
       <img src="assets/screenshots/3.jpeg" width="220"/><br>
-      
+      <strong>Cart Screen</strong>
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>Home Screen</strong>
+    <td align="center">
       <img src="assets/screenshots/4.jpeg" width="220"/><br>
-      
+      <strong>Home Screen</strong>
     </td>
-    <td>
-      <strong>Onboarding Screen</strong>
+    <td align="center">
       <img src="assets/screenshots/5.jpeg" width="220"/><br>
-      
+      <strong>Onboarding Screen</strong>
     </td>
-    <td>
-      <strong>Splash Screen</strong>
+    <td align="center">
       <img src="assets/screenshots/6.jpeg" width="220"/><br>
-      
+      <strong>Splash Screen</strong>
     </td>
   </tr>
 </table>
@@ -68,5 +62,6 @@ This project is structured using **Clean Architecture**, which separates the app
 - 🎨 Clean and responsive UI
 
 ---
+
 
 
