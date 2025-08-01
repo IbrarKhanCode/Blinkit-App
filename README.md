@@ -1,16 +1,54 @@
-# blinkit_app
+# 🛒 BlinkIt Clone – Flutter App
 
-A new Flutter project.
+A high-performance grocery shopping app built with **Flutter**, inspired by BlinkIt. It uses **Clean Architecture** to ensure scalability, testability, and clean separation of concerns.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+### 🏠 Print Screen
+![Print Screen](assets/screenshots/1.jpeg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔍 Category Screen
+![Category Screen](assets/screenshots/2.jpeg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🛍️ Cart Screen
+![Cart Screen](assets/screenshots/3.jpeg)
+
+### 🧺 Home Screen
+![Home Screen](assets/screenshots/4.jpeg)
+
+### 🧺 Onboarding Screen
+![Onboarding Screen](assets/screenshots/5.jpeg)
+
+### 🧺 Splash Screen
+![Splash Screen](assets/screenshots/6.jpeg)
+
+---
+
+## 🧠 Architecture
+
+This project is structured using **Clean Architecture**, which separates the app into:
+
+- **Presentation Layer:** UI + ViewModels (MVVM)
+- **Domain Layer:** Use Cases & Entities
+- **Data Layer:** Repositories, API Services, Models
+
+🔹 **Benefits:**
+- Scalable codebase
+- Easy to test and maintain
+- Clear separation of concerns
+
+---
+
+## 🚀 Features
+
+- 🛒 Browse and search products
+- 📦 Add to cart and checkout flow
+- 📊 MVVM + Clean Architecture pattern
+- 🎨 Clean and responsive UI
+
+---
+
+## 🧱 Folder Structure
+
