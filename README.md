@@ -6,31 +6,37 @@ A high-performance grocery shopping app built with **Flutter**, inspired by Blin
 
 <table>
   <tr>
-    <td align="center">
-      <img src="assets/screenshots/1.jpeg" width="220"/><br>
+    <td>
       <strong>Print Screen</strong>
+      <img src="assets/screenshots/1.jpeg" width="220"/><br>
+      
     </td>
-    <td align="center">
-      <img src="assets/screenshots/2.jpeg" width="220"/><br>
+    <td>
       <strong>Category Screen</strong>
+      <img src="assets/screenshots/2.jpeg" width="220"/><br>
+      
     </td>
-    <td align="center">
-      <img src="assets/screenshots/3.jpeg" width="220"/><br>
+    <td>
       <strong>Cart Screen</strong>
+      <img src="assets/screenshots/3.jpeg" width="220"/><br>
+      
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="assets/screenshots/4.jpeg" width="220"/><br>
+    <td>
       <strong>Home Screen</strong>
+      <img src="assets/screenshots/4.jpeg" width="220"/><br>
+      
     </td>
-    <td align="center">
-      <img src="assets/screenshots/5.jpeg" width="220"/><br>
+    <td>
       <strong>Onboarding Screen</strong>
+      <img src="assets/screenshots/5.jpeg" width="220"/><br>
+      
     </td>
-    <td align="center">
-      <img src="assets/screenshots/6.jpeg" width="220"/><br>
+    <td>
       <strong>Splash Screen</strong>
+      <img src="assets/screenshots/6.jpeg" width="220"/><br>
+      
     </td>
   </tr>
 </table>
@@ -63,5 +69,4 @@ This project is structured using **Clean Architecture**, which separates the app
 
 ---
 
-## 🧱 Folder Structure
 
