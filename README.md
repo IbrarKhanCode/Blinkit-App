@@ -4,25 +4,37 @@ A high-performance grocery shopping app built with **Flutter**, inspired by Blin
 
 ---
 
-## 📱 Screenshots
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/screenshots/1.jpeg" width="220"/><br>
+      <strong>Print Screen</strong>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/2.jpeg" width="220"/><br>
+      <strong>Category Screen</strong>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/3.jpeg" width="220"/><br>
+      <strong>Cart Screen</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/screenshots/4.jpeg" width="220"/><br>
+      <strong>Home Screen</strong>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/5.jpeg" width="220"/><br>
+      <strong>Onboarding Screen</strong>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/6.jpeg" width="220"/><br>
+      <strong>Splash Screen</strong>
+    </td>
+  </tr>
+</table>
 
-### 🏠 Print Screen
-<img src="assets/screenshots/1.jpeg" width="350"/>
-
-### 🔍 Category Screen
-<img src="assets/screenshots/2.jpeg" width="350"/>
-
-### 🛍️ Cart Screen
-<img src="assets/screenshots/3.jpeg" width="350"/>
-
-### 🧺 Home Screen
-<img src="assets/screenshots/4.jpeg" width="350"/>
-
-### 🧺 Onboarding Screen
-<img src="assets/screenshots/5.jpeg" width="350"/>
-
-### 🧺 Splash Screen
-<img src="assets/screenshots/6.jpeg" width="350"/>
 
 ---
 
