@@ -7,24 +7,25 @@ A high-performance grocery shopping app built with **Flutter**, inspired by Blin
 ## 📱 Screenshots
 
 ### 🏠 Print Screen
-![Print Screen](assets/screenshots/1.jpeg)
+<img src="assets/screenshots/1.jpeg" width="350"/>
 
 ### 🔍 Category Screen
-![Category Screen](assets/screenshots/2.jpeg)
+<img src="assets/screenshots/2.jpeg" width="350"/>
 
 ### 🛍️ Cart Screen
-![Cart Screen](assets/screenshots/3.jpeg)
+<img src="assets/screenshots/3.jpeg" width="350"/>
 
 ### 🧺 Home Screen
-![Home Screen](assets/screenshots/4.jpeg)
+<img src="assets/screenshots/4.jpeg" width="350"/>
 
 ### 🧺 Onboarding Screen
-![Onboarding Screen](assets/screenshots/5.jpeg)
+<img src="assets/screenshots/5.jpeg" width="350"/>
 
 ### 🧺 Splash Screen
-![Splash Screen](assets/screenshots/6.jpeg)
+<img src="assets/screenshots/6.jpeg" width="350"/>
 
 ---
+
 
 ## 🧠 Architecture
 
